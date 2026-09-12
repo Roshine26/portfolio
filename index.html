@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roshine D | Portfolio</title>
+    <meta name="description" content="Personal portfolio of Roshine D, B.Tech Computer Science and Engineering student specializing in Cyber Security.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo" id="site-logo">Roshine D</a>
+            
+            <!-- Mobile Menu Toggle Button -->
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <nav class="nav-links" id="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#hackathons" class="nav-link">Hackathons</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Home / Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <span class="hero-tag">Student Portfolio</span>
+                <h1 class="hero-name">Hi, I'm Roshine D</h1>
+                <p class="hero-role">B.Tech CSE (Cyber Security) Student</p>
+                <p class="hero-intro">
+                    I am a Computer Science and Engineering student specializing in Cyber Security. I enjoy working on practical projects, exploring digital forensics and security tools, and continually expanding my knowledge in software and cybersecurity fundamentals.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary" id="btn-view-work">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary" id="btn-get-in-touch">Let's Connect</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Background</span>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+                
+                <div class="about-content">
+                    <p class="about-text">
+                        I am Roshine D, a B.Tech Computer Science and Engineering student specializing in Cyber Security. I have a keen interest in understanding how systems and networks operate, along with the methodologies used to defend and analyze them.
+                    </p>
+                    <p class="about-text">
+                        My practical learning covers foundational programming with Python and C++, database management with MySQL, web fundamentals in HTML and CSS, and specialized security areas including Digital Forensics and Cryptography in IT Security. I enjoy learning through hands-on lab environments, certifications, and hackathons.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Technical Areas</span>
+                    <h2 class="section-title">Skills</h2>
+                </div>
+
+                <div class="skills-card">
+                    <div class="skills-tags" id="skills-list">
+                        <span class="skill-tag">Python — Basic</span>
+                        <span class="skill-tag">C++ — Basic</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">HTML / CSS</span>
+                        <span class="skill-tag">Digital Forensics</span>
+                        <span class="skill-tag">Cryptography</span>
+                        <span class="skill-tag">Cyber Security Fundamentals</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Coursework &amp; Projects</span>
+                    <h2 class="section-title">Projects</h2>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card" id="project-flight-system">
+                        <div class="project-card-header">
+                            <span class="project-category">Database Management</span>
+                            <h3 class="project-title">Flight Ticket Management System</h3>
+                        </div>
+                        <p class="project-description">
+                            Built using MySQL. Focused on managing flight ticket-related information, passenger records, booking details, and database operations.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-pill">MySQL</span>
+                            <span class="tech-pill">Database Operations</span>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card" id="project-portfolio">
+                        <div class="project-card-header">
+                            <span class="project-category">Web Development</span>
+                            <h3 class="project-title">Personal Portfolio Website</h3>
+                        </div>
+                        <p class="project-description">
+                            Built using HTML and CSS. A personal website showcasing my skills, projects, certifications, and academic background.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-pill">HTML</span>
+                            <span class="tech-pill">CSS</span>
+                            <span class="tech-pill">Responsive Design</span>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card" id="project-digital-forensics">
+                        <div class="project-card-header">
+                            <span class="project-category">Cybersecurity</span>
+                            <h3 class="project-title">Digital Forensics</h3>
+                        </div>
+                        <p class="project-description">
+                            Practical knowledge and experience in digital forensics techniques, including analyzing file structures, recovering deleted files, and discovering hidden files.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-pill">Digital Forensics</span>
+                            <span class="tech-pill">File Recovery</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Experience Section -->
+        <section id="experience" class="section experience-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Training &amp; Credentials</span>
+                    <h2 class="section-title">Certifications &amp; Experience</h2>
+                </div>
+
+                <!-- Internship Experience -->
+                <div class="experience-block">
+                    <h3 class="subsection-title">Practical Experience</h3>
+                    <div class="experience-card" id="exp-k7">
+                        <div class="exp-header">
+                            <div>
+                                <h4 class="exp-title">K7 Computing</h4>
+                                <span class="exp-role">4-Week Internship / Training</span>
+                            </div>
+                            <span class="exp-badge">Cyber Threat Research</span>
+                        </div>
+                        <p class="exp-description">
+                            Completed a 4-week internship and training program focused on cyber threat research and malware analysis. Worked within virtual lab environments to analyze malicious samples and utilized security tools including Wireshark, Process Monitor, RegShot, VirusTotal, PEiD, and related security analysis tools.
+                        </p>
+                        <div class="exp-tools">
+                            <span class="tech-pill">Malware Analysis</span>
+                            <span class="tech-pill">Virtual Machines</span>
+                            <span class="tech-pill">Wireshark</span>
+                            <span class="tech-pill">Process Monitor</span>
+                            <span class="tech-pill">RegShot</span>
+                            <span class="tech-pill">VirusTotal</span>
+                            <span class="tech-pill">PEiD</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications -->
+                <div class="certifications-block">
+                    <h3 class="subsection-title">Certifications &amp; Learning</h3>
+                    <div class="certifications-grid">
+                        <div class="cert-card">
+                            <span class="cert-issuer">IIT Spoken Tutorial</span>
+                            <h4 class="cert-title">MySQL</h4>
+                            <p class="cert-desc">Training in relational database concepts, query design, and MySQL administration.</p>
+                        </div>
+
+                        <div class="cert-card">
+                            <span class="cert-issuer">Infosys Springboard</span>
+                            <h4 class="cert-title">Cryptography in IT Security</h4>
+                            <p class="cert-desc">Study of cryptographic algorithms, encryption mechanisms, and practical data protection principles.</p>
+                        </div>
+
+                        <div class="cert-card">
+                            <span class="cert-issuer">Infosys Springboard</span>
+                            <h4 class="cert-title">Hacking</h4>
+                            <p class="cert-desc">Foundational training covering cybersecurity concepts, vulnerabilities, and defense strategies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hackathons & Activities Section -->
+        <section id="hackathons" class="section hackathons-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Competitions &amp; Events</span>
+                    <h2 class="section-title">Hackathons &amp; Activities</h2>
+                </div>
+
+                <div class="hackathons-grid">
+                    <div class="hackathon-card" id="hack-iob">
+                        <div class="hack-header">
+                            <h3 class="hack-title">IOB Hackathon</h3>
+                            <span class="hack-badge">Top 20 Shortlist</span>
+                        </div>
+                        <p class="hack-project"><strong>Project:</strong> AI Authentication System</p>
+                        <p class="hack-description">
+                            Developed an AI-based authentication system proposal and successfully got shortlisted among the Top 20 teams in the competition.
+                        </p>
+                    </div>
+
+                    <div class="hackathon-card" id="hack-hackindia">
+                        <div class="hack-header">
+                            <h3 class="hack-title">HackIndia 2026</h3>
+                            <span class="hack-badge">24-Hour Hackathon</span>
+                        </div>
+                        <p class="hack-project"><strong>Project:</strong> SkillSwap</p>
+                        <p class="hack-description">
+                            Participated in a 24-hour Web3 &amp; AI hackathon, building SkillSwap — a collaborative project designed around skill sharing and connecting peers who can learn from one another.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Get In Touch</span>
+                    <h2 class="section-title">Let's Connect</h2>
+                </div>
+
+                <p class="contact-intro">
+                    I am always open to learning, collaborating, and connecting with fellow students and people interested in technology. Feel free to leave a message using the form below.
+                </p>
+
+                <div class="contact-card">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contact-name">Name</label>
+                                <input type="text" id="contact-name" name="name" placeholder="Your name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-email">Email</label>
+                                <input type="email" id="contact-email" name="email" placeholder="Your email address" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-message">Message</label>
+                            <textarea id="contact-message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-submit" id="btn-send-message">Send Message</button>
+                    </form>
+                    <div class="form-feedback" id="form-feedback" role="alert" aria-live="polite"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="footer-copy">&copy; <span id="current-year"></span> Roshine D. All rights reserved.</p>
+            <p class="footer-subtext">B.Tech CSE (Cyber Security)</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
