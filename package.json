@@ -1,0 +1,11 @@
+{
+  "name": "roshine-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio of Roshine D - B.Tech CSE (Cyber Security)",
+  "scripts": {
+    "start": "npx http-server frontend -p 3000 -o /resume.html -c-1",
+    "dev": "npx http-server frontend -p 3000 -o /resume.html -c-1"
+  },
+  "keywords": ["portfolio", "cybersecurity", "web"],
+  "author": "Roshine D"
+}

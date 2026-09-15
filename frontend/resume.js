@@ -1,5 +1,5 @@
 // ==========================================================================
-// Roshine D - Personal Portfolio JavaScript
+// Roshine D - Personal Portfolio JavaScript (Compiled from resume.ts)
 // Simple, clean vanilla JavaScript for interactions and accessibility
 // ==========================================================================
 
